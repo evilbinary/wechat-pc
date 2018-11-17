@@ -51,8 +51,8 @@
   ;;(window-set-fps-pos  0.0  0.0)
   (window-show-fps #t)
   ;;init res
-  (set! avatar-demo (load-texture "duck.png"))
-  (set! icon-people (load-texture "pepole.png"))
+  (set! avatar-demo (load-texture "res/duck.png"))
+  (set! icon-people (load-texture "res/pepole.png"))
   ;;widget add here
   (let ((main (view (* 1.0 width) %match-parent))
 	(left (view 70.0 %match-parent ))
